@@ -1,0 +1,49 @@
+/* Remove margins and paddings */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+hr,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: initial;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove hyperlink styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove font styles for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
